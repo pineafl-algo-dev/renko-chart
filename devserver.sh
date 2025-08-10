@@ -1,3 +1,4 @@
 #!/bin/sh
 source .venv/bin/activate
-python -u -m flask --app main run --debug
+export FLASK_APP=app.py
+flask run --debug
